@@ -1,19 +1,19 @@
 :root{
-  --bg: #12181F;
-  --bg-panel: #171E26;
-  --bg-panel-2: #1D2530;
+  --bg: #0F1B33;
+  --bg-panel: #14213A;
+  --bg-panel-2: #1A2844;
   --ink: #ECEFF2;
   --ink-dim: #8C97A3;
-  --ink-faint: #5C6773;
+  --ink-faint: #828D99;
 
-  /* palette pulled from business card / banner (navy + cream) */
-  --accent: #E4D9BB;
-  --accent-ink: #10233F;
-  --accent-dim: #4F4831;
+  /* dark navy blue base, champagne gold secondary */
+  --accent: #C9A876;
+  --accent-ink: #1C140A;
+  --accent-dim: #6B5636;
 
   --ok: #4FA383;
-  --line: #29323C;
-  --line-soft: #1F2730;
+  --line: #263550;
+  --line-soft: #1C2A44;
   --radius: 3px;
   --wrap: 1040px;
 }
@@ -76,7 +76,7 @@ a{color:inherit;}
 /* ---------- nav ---------- */
 header{
   position:sticky; top:0; z-index:20;
-  background:rgba(18,24,31,0.88);
+  background:rgba(15,27,51,0.88);
   backdrop-filter:blur(8px);
   border-bottom:1px solid var(--line-soft);
 }
@@ -333,7 +333,7 @@ section{
   font-size:12.5px;
   color:var(--ink-dim);
 }
-.badge-row .dot{ background:var(--accent); box-shadow:0 0 0 3px rgba(228,217,187,0.15); }
+.badge-row .dot{ background:var(--accent); box-shadow:0 0 0 3px rgba(201,168,118,0.15); }
 
 /* ---------- contact ---------- */
 .contact{
